@@ -24,6 +24,9 @@ To stop all docker containers without killing them:
 To see all containers:
   docker ps -a
 
+To see running containers:
+  docker ps
+
 -------------------------------------------------------
 
 To start your own branch:
