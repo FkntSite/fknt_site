@@ -14,7 +14,8 @@ To download this project and use it please run in terminal:
 At the first time run:
 
  docker-compose build
-#--------
+
+-------------------------------------------------------
 
 To start docker container:
 
@@ -23,22 +24,26 @@ To start docker container:
 and check localhost:3000
 
 (WOW Magic)
-#--------
+
+-------------------------------------------------------
 
 To run rails console:
 
   docker-compose run web rails c
-#--------
+
+-------------------------------------------------------
 
 To stop all docker containers without killing them:
 
   docker stop $(docker ps -a -q)
-#--------
+
+-------------------------------------------------------
 
 To see all containers:
 
   docker ps -a
-#--------
+
+-------------------------------------------------------
 
 To see running containers:
 
@@ -53,12 +58,14 @@ To start your own branch:
   git checkout yourbranch
 
   (or to do all in 1 step: git checkout -b yourbranch)
-#--------
+
+-------------------------------------------------------
 
 To come back to master brunch:
 
   git checkout master
-#--------
+
+-------------------------------------------------------
 
 To merge your branch with master:
 
