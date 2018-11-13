@@ -23,3 +23,20 @@ To stop all docker containers without killing them:
 
 To see all containers:
   docker ps -a
+
+-------------------------------------------------------
+
+To start your own branch:
+  git branch yourbranch
+  git checkout yourbranch
+  (or to do all in 1 step: git checkout -b yourbranch)
+
+To come back to master brunch:
+  git checkout master
+
+To merge your branch with master:
+  git merge yourbranch
+
+-------------------------------------------------------
+
+To see more details check INTERNET
