@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To download this project and use it please run in terminal:
+  cd Projects
+  mkdir fknt_site
+  git clone https://github.com/FkntSite/fknt_site
 
-Things you may want to cover:
+-------------------------------------------------------
 
-* Ruby version
+At the first time run:
+  docker-compose build
 
-* System dependencies
+To start docker container:
+  docker-compose up
+and check localhost:3000
+(WOW Magic)
 
-* Configuration
+To run rails console:
+  docker-compose run web rails c
 
-* Database creation
+To stop all docker containers without killing them:
+  docker stop $(docker ps -a -q)
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To see all containers:
+  docker ps -a
