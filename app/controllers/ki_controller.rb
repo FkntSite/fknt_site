@@ -1,0 +1,2 @@
+class KiController < ApplicationController
+end
