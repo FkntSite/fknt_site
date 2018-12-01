@@ -18,6 +18,7 @@ Rails.application.routes.draw do
   get 'contacts'      => 'pages#contacts',      as: 'contacts'
 
   resources :posts
+  resources :users
   get 'index' => 'posts#index'
 
 end
